@@ -1,0 +1,5 @@
+Private Sub Worksheet_SelectionChange(ByVal Target As Range)
+    If Not Intersect(Target, Range("E3")) Is Nothing Then
+        Call SearchTerms
+    End If
+End Sub
