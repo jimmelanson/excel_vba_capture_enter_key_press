@@ -39,15 +39,13 @@ With those two changes made, every time I entered a term and then pressed the en
 from cell E2 to E3. I then added this code to the worksheet in the VBA editor:
 
 <code>
+    
 Private Sub Worksheet_SelectionChange(ByVal Target As Range)
-
     If Not Intersect(Target, Range("E3")) Is Nothing Then
-    
         Call SearchTerms
-        
     End If
-    
 End Sub
+    
 </code>
 
 https://github.com/jimmelanson/excel_vba_capture_enter_key_press/blob/bd617354909250e64f3539e9bbdcd9d7128f4f7c/selection_change
