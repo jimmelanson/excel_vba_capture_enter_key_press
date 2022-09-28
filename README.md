@@ -38,17 +38,11 @@ Change #2: I unlocked one cell directly beneath the user entered search term cel
 With those two changes made, every time I entered a term and then pressed the enter key, the cursor would advance
 from cell E2 to E3. I then added this code to the worksheet in the VBA editor:
 
-<code>
 Private Sub Worksheet_SelectionChange(ByVal Target As Range)
-
     If Not Intersect(Target, Range("E3")) Is Nothing Then
-
-        Call Call_Search_On_Enter_Press
-
+        Call SearchTerms
     End If
-
 End Sub
-</code>
 
 blah blah
 
