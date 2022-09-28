@@ -33,6 +33,7 @@ to be displayed. All the cells were PROTECTED except for the cell in which you e
 worksheet was then protected so that you could not type in anything other than the search term cell.
 
 Change #1: I inserted a row directly beneath the row (Row 2) in which the user entered search term cell appeared.
+
 Change #2: I unlocked one cell directly beneath the user entered search term cell (E3).
 
 With those two changes made, every time I entered a term and then pressed the enter key, the cursor would advance
