@@ -41,8 +41,11 @@ from cell E2 to E3. I then added this code to the worksheet in the VBA editor:
 <code>
     
 Private Sub Worksheet_SelectionChange(ByVal Target As Range)
+    
     If Not Intersect(Target, Range("E3")) Is Nothing Then
+    
         Call SearchTerms
+    
     End If
 End Sub
     
