@@ -52,8 +52,7 @@ End Sub
 
 blah blah
 
-https://github.com/jimmelanson/excel_vba_capture_enter_key_press/blob/e69cd4ecf95ba3c543dca25616cb0f4cc94c1030/selection_change
-
+https://github.com/jimmelanson/excel_vba_capture_enter_key_press/blob/bd617354909250e64f3539e9bbdcd9d7128f4f7c/selection_change#L1
 
 
 It's not elegant, but it works.
