@@ -50,4 +50,10 @@ Private Sub Worksheet_SelectionChange(ByVal Target As Range)
 End Sub
 </code>
 
+blah blah
+
+https://github.com/jimmelanson/excel_vba_capture_enter_key_press/blob/e69cd4ecf95ba3c543dca25616cb0f4cc94c1030/selection_change
+
+
+
 It's not elegant, but it works.
